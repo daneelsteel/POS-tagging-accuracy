@@ -10,7 +10,7 @@ We test them on two arbitrary texts:
 
 Here's how we tagged them to get the ground truth: you can see it in this file. Any and all suggestions are welcome! POS can be weird and ambiguous.
 
-And here's the accuracies and mistakes for each tagger:
+And here's the accuracies and mistakes for each tagger (for each word it's a two-element list consisting of the error [0] and ground truth [1]:
 In English:
 - Accuracy of Spacy is: 0.9090909090909091; as mistakes, it had:  [[{'слово': 'my', 'разбор': 'DET'}, {'слово': 'my', 'разбор': 'PRON'}], [{'слово': 'damn', 'разбор': 'INTJ'}, {'слово': 'damn', 'разбор': 'V'}], [{'слово': 'my', 'разбор': 'DET'}, {'слово': 'my', 'разбор': 'PRON'}], [{'слово': 'out', 'разбор': 'A'}, {'слово': 'out', 'разбор': 'PREP'}], [{'слово': 'part', 'разбор': 'V'}, {'слово': 'part', 'разбор': 'N'}], [{'слово': 'what', 'разбор': 'DET'}, {'слово': 'what', 'разбор': 'PRON'}], [{'слово': 'my', 'разбор': 'DET'}, {'слово': 'my', 'разбор': 'PRON'}], [{'слово': 'away', 'разбор': 'A'}, {'слово': 'away', 'разбор': 'PREP'}], [{'слово': 'my', 'разбор': 'DET'}, {'слово': 'my', 'разбор': 'PRON'}], [{'слово': 'There', 'разбор': 'PRON'}, {'слово': 'There', 'разбор': 'DET'}]]
 
