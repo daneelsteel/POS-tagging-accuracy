@@ -1,4 +1,4 @@
-# Testing the Accuracy of several English and Russian POS-teggers
+# Testing the Accuracy of several English and Russian POS-taggers
 
 Our goal here is to assess accuracy of three most popular POS-taggers for English and Russian languages each:
 - Spacy, Flair, NLTK for English
