@@ -8,7 +8,9 @@ We test them on two arbitrary texts:
 - "Приходящие и уходящие из магазина покупатели охрану бесили неимоверно. Несмотря на то, что работали те спустя рукава и не смотря вокруг, у них было статус-кво и острое чувство справедливости! И дубинки. Их де-юре бессменное владение территорией де-факто ограничивалось кассой да пятачком у автоматиков. Тем не менее, им было где разгуляться, особенно утром – в гостиной отеля, хотя бы, хоть она и выходила за рамки магазинчика у ограды. Охранники туда выбирались, хоть ты тресни – кто им запретит? Разве что УК РФ, и то не факт. Книжицей законности им в наглые лица еще никто не натыкал, хотя горничные типа Ниночки и порывались. Сильно смелых в штате не нашлось ни тем утром, ни любым другим."
 - "To put it mildly, all of that was weird. They were weirdos! All these insane shenanigans were frying my mind. No way this was happening. God damn. Oh, these people, they tried to help! They were my main source of inspiration, little softies. But the odds of me getting out were slim. I had to part from here, I really did. But what would that cost me?  At what cost would I manage? I put my sharpie away and stayed put. The light was light and soft. I was starting to doubt my silly doubts beyond all rational thought. There was no return, no safehouse. The end was closing in."
 
-Here's how we tagged them to get the ground truth: you can see it in this file. Any and all suggestions are welcome! POS can be weird and ambiguous.
+The ground truth can be found in the middle of the main .ipynb file. Any and all suggestions are welcome! POS can be weird and ambiguous.
+
+! Most comments in the main .ipynb file are in Russian!
 
 And here's the accuracies and mistakes for each tagger (for each word it's a two-element list consisting of the error [0] and ground truth [1]:
 In English:
